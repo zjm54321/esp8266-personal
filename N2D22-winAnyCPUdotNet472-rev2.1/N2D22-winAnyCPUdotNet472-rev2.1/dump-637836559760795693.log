@@ -1,0 +1,76 @@
+[ 2022/3/23 18:11:42]	Application init.
+[ 2022/3/23 18:11:42]	Program executed with the --portable flag which removes the need for Python and the esptool module and instead uses a precompiled (outdated) copy of the esptool.
+[ 2022/3/23 18:11:42]	You are warned that using untrusted executables not provided by N2D22 exposes your computer system to security risks. It's recommended that you do not use this mode and instead use the Python utility.
+[ 2022/3/23 18:11:42]	Could not find a matching file for esptool.exe in the current working directory.
+[ 2022/3/23 18:11:45]	Creating MainWindow
+[ 2022/3/23 18:11:45]	taskmanager: Started setup.
+[ 2022/3/23 18:11:45]	windowmgr: Mounted window WaitFm into MainWindow
+[ 2022/3/23 18:11:46]	setup: [ 1.04620]	Finished (1s).
+[ 2022/3/23 18:11:46]	taskmanager: setup finished in 1s.
+[ 2022/3/23 18:11:46]	windowmgr: Request to unmount WaitFm into MainWindow requires control invokation.
+[ 2022/3/23 18:11:46]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:11:46]	windowmgr: Removing window WaitFm from MainWindow
+[ 2022/3/23 18:11:46]	taskmanager: Started devicescan.
+[ 2022/3/23 18:11:46]	windowmgr: Mounted window WaitFm into MainWindow
+[ 2022/3/23 18:11:47]	devicescan: [ 1.03213]	Searching for devices...
+[ 2022/3/23 18:11:47]	devicescan: [ 1.25922]	Detected 通信端口 on COM1
+[ 2022/3/23 18:11:48]	windowmgr: Mounted window RequestFm into MainWindow
+[ 2022/3/23 18:11:51]	windowmgr: Request to unmount RequestFm into MainWindow requires control invokation.
+[ 2022/3/23 18:11:51]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:11:51]	windowmgr: Removing window RequestFm from MainWindow
+[ 2022/3/23 18:11:51]	devicescan: [ 4.94450]	The device was rejected by the user, device threshold is now 2 (was 1)
+[ 2022/3/23 18:11:51]	devicescan: [ 5.14612]	Detected Unknown device (COM3) on COM3
+[ 2022/3/23 18:11:51]	windowmgr: Mounted window RequestFm into MainWindow
+[ 2022/3/23 18:11:53]	windowmgr: Request to unmount RequestFm into MainWindow requires control invokation.
+[ 2022/3/23 18:11:53]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:11:53]	windowmgr: Removing window RequestFm from MainWindow
+[ 2022/3/23 18:11:53]	devicescan: [ 7.03107]	Connecting to Unknown device (COM3) on COM3...
+[ 2022/3/23 18:11:53]	shellmgr: Running command "C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe --port COM3 read_mac"
+[ 2022/3/23 18:11:53]	shellmgr: The system reports no errors at the moment.
+[ 2022/3/23 18:11:53]	shellmgr: [INFO] The process (pid 46440) is running as a task and is limited to a runtime of 1800 seconds.
+[ 2022/3/23 18:11:55]	shellmgr: C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe stderr: 
+[ 2022/3/23 18:11:55]	devicescan: [ 9.04810]	Connected to Unknown device (COM3) on COM3
+[ 2022/3/23 18:11:55]	devicescan: [ 9.04810]	Espressif device MAC: EC:FA:BC:5F:77:19
+[ 2022/3/23 18:11:56]	devicescan: [ 10.05811]	Finished (10s).
+[ 2022/3/23 18:11:56]	taskmanager: devicescan finished in 10s.
+[ 2022/3/23 18:11:56]	windowmgr: Request to unmount WaitFm into MainWindow requires control invokation.
+[ 2022/3/23 18:11:56]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:11:56]	windowmgr: Removing window WaitFm from MainWindow
+[ 2022/3/23 18:11:56]	taskmanager: Started flasher.
+[ 2022/3/23 18:11:56]	windowmgr: Mounted window WaitFm into MainWindow
+[ 2022/3/23 18:11:57]	windowmgr: Mounted window RequestFm into MainWindow
+[ 2022/3/23 18:12:01]	windowmgr: Request to unmount RequestFm into MainWindow requires control invokation.
+[ 2022/3/23 18:12:01]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:12:01]	windowmgr: Removing window RequestFm from MainWindow
+[ 2022/3/23 18:12:08]	windowmgr: Mounted window RequestFm into MainWindow
+[ 2022/3/23 18:12:12]	windowmgr: Request to unmount RequestFm into MainWindow requires control invokation.
+[ 2022/3/23 18:12:12]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:12:12]	windowmgr: Removing window RequestFm from MainWindow
+[ 2022/3/23 18:12:12]	flasher: [ 15.57946]	Flash operation started.
+[ 2022/3/23 18:12:12]	flasher: [ 15.58547]	Checking device connection...
+[ 2022/3/23 18:12:12]	flasher: [ 15.58547]	Connecting to Unknown device (COM3) on COM3...
+[ 2022/3/23 18:12:12]	shellmgr: Running command "C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe --port COM3 read_mac"
+[ 2022/3/23 18:12:12]	shellmgr: The system reports no errors at the moment.
+[ 2022/3/23 18:12:12]	shellmgr: [INFO] The process (pid 56584) is running as a task and is limited to a runtime of 1800 seconds.
+[ 2022/3/23 18:12:14]	shellmgr: C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe stderr: 
+[ 2022/3/23 18:12:14]	flasher: [ 17.58283]	Connected to Unknown device (COM3) on COM3
+[ 2022/3/23 18:12:14]	flasher: [ 17.58283]	Espressif device MAC: EC:FA:BC:5F:77:19
+[ 2022/3/23 18:12:14]	flasher: [ 17.58883]	Erasing flash memory chip...
+[ 2022/3/23 18:12:14]	shellmgr: Running command "C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe --port COM3 erase_flash"
+[ 2022/3/23 18:12:14]	shellmgr: The system reports no errors at the moment.
+[ 2022/3/23 18:12:14]	shellmgr: [INFO] The process (pid 22760) is running as a task and is limited to a runtime of 1800 seconds.
+[ 2022/3/23 18:12:25]	shellmgr: C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe stderr: 
+[ 2022/3/23 18:12:25]	flasher: [ 29.15441]	Erase successful!
+[ 2022/3/23 18:12:25]	flasher: [ 29.16041]	Writing new software image...
+[ 2022/3/23 18:12:25]	shellmgr: Running command "C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe --port COM3 write_flash 0x0 "C:\Users\Zhang\Downloads\0x82000.bin""
+[ 2022/3/23 18:12:25]	shellmgr: The system reports no errors at the moment.
+[ 2022/3/23 18:12:25]	shellmgr: [INFO] The process (pid 57224) is running as a task and is limited to a runtime of 1800 seconds.
+[ 2022/3/23 18:12:51]	shellmgr: C:\Users\Zhang\Downloads\N2D22-winAnyCPUdotNet472-rev2.1\N2D22-winAnyCPUdotNet472-rev2.1\legacy\esptool.exe stderr: 
+[ 2022/3/23 18:12:51]	flasher: [ 54.97089]	Erase successful!
+[ 2022/3/23 18:12:52]	windowmgr: Mounted window MessageFm into MainWindow
+[ 2022/3/23 18:12:52]	flasher: [ 55.50769]	Finished (56s).
+[ 2022/3/23 18:12:52]	taskmanager: flasher finished in 56s.
+[ 2022/3/23 18:12:52]	windowmgr: Request to unmount WaitFm into MainWindow requires control invokation.
+[ 2022/3/23 18:12:52]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 18:12:52]	windowmgr: Removing window WaitFm from MainWindow
+[ 2022/3/23 18:12:56]	Window destroyed. Exiting

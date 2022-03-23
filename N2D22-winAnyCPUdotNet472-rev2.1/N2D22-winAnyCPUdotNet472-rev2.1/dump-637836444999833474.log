@@ -1,0 +1,24 @@
+[ 2022/3/23 15:01:36]	Application init.
+[ 2022/3/23 15:01:36]	Creating MainWindow
+[ 2022/3/23 15:01:36]	taskmanager: Started setup.
+[ 2022/3/23 15:01:36]	windowmgr: Mounted window WaitFm into MainWindow
+[ 2022/3/23 15:01:37]	shellmgr: Running command "py --version"
+[ 2022/3/23 15:01:37]	shellmgr: The system reports no errors at the moment. Attempting to close the process.
+[ 2022/3/23 15:01:37]	shellmgr: Waiting for py (pid 39712) to exit. [1 of 3]
+[ 2022/3/23 15:01:37]	shellmgr: Waiting for py (pid 39712) to exit. [2 of 3]
+[ 2022/3/23 15:01:37]	shellmgr: py has exited. Exit code: 0.
+[ 2022/3/23 15:01:37]	shellmgr: Running command "py -c "import sys; print(sys.executable)""
+[ 2022/3/23 15:01:37]	shellmgr: The system reports no errors at the moment.
+[ 2022/3/23 15:01:37]	shellmgr: [INFO] The process (pid 54844) is running as a task and is limited to a runtime of 1800 seconds.
+[ 2022/3/23 15:01:37]	shellmgr: py stderr: 
+[ 2022/3/23 15:01:37]	setup: [ 1.31376]	Python is installed on this PC at "C:\Program Files\Python310\python.exe".
+[ 2022/3/23 15:01:38]	shellmgr: Running command "py -m esptool --help"
+[ 2022/3/23 15:01:38]	shellmgr: The system reports no errors at the moment. Attempting to close the process.
+[ 2022/3/23 15:01:38]	shellmgr: Waiting for py (pid 36532) to exit. [1 of 3]
+[ 2022/3/23 15:01:38]	shellmgr: Waiting for py (pid 36532) to exit. [2 of 3]
+[ 2022/3/23 15:01:38]	shellmgr: py has exited. Exit code: 1.
+[ 2022/3/23 15:01:38]	setup: [ 2.44824]	esptool.py isn't installed in the default Python environment. You can choose to install esptool or use N2D22 in portable mode.
+[ 2022/3/23 15:01:38]	windowmgr: Mounted window RequestFm into MainWindow
+[ 2022/3/23 15:01:39]	windowmgr: Request to unmount RequestFm into MainWindow requires control invokation.
+[ 2022/3/23 15:01:39]	windowmgr: Invoking the request on the UI thread.
+[ 2022/3/23 15:01:39]	windowmgr: Removing window RequestFm from MainWindow
